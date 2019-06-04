@@ -3,7 +3,8 @@ import './Resume.css';
 import ResJumbo from '../ResJumbo';
 import Qualification from '../ResQualifications';
 import ResTechnical from '../ResTechnical/ResTechnical';
-import ResExp from './ResExp';
+import Experience from '../Experience';
+
 //___________________________
 
 class Resume extends React.Component{
@@ -14,10 +15,9 @@ class Resume extends React.Component{
       <ResJumbo/>
       <Qualification/>
       <ResTechnical/>
-      <ResExp/>
+      <Experience/>
       
-
-      //----Experience---->
+      
       
       
       //----Education---->      

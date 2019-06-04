@@ -1,8 +1,8 @@
 import React from 'react';
-import './ResExp.css';
+import './Experience.css';
 
 
-class ResExp extends React.Component{
+class Experience extends React.Component{
   render(){
     return(
       <div>
@@ -91,4 +91,4 @@ class ResExp extends React.Component{
   }
 }
 
-export default ResExp;
+export default Experience;
