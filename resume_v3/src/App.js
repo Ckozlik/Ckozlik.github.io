@@ -7,11 +7,8 @@ import Footer from './components/Footer';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 
-class App extends Component{
-  constructor(props){
-    super(props);
 
-  }
+class App extends Component{
   render(){
     return( 
       <Router>
