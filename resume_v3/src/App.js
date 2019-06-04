@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import './App.css';
-import TopNav from './components/TopNav'
+import TopNav from './components/TopNav';
+import Home from './components/Home';
+import Footer from './components/Footer';
+
 
 class App extends Component{
   constructor(props){
@@ -11,6 +14,9 @@ class App extends Component{
     return( 
       <div className="App">
         <TopNav/>
+        <Home/>
+        <Footer/>
+        
       </div>
       
       

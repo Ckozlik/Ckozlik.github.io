@@ -1,16 +1,16 @@
 import React from 'react';
-import './TopNav.css';
+import './Home.css';
 //___________________________
 
-class TopNav extends React.Component{
+class Home extends React.Component{
   constructor(props){
     super(props);
   }
   render(){
     return(
-      <p>this is the Top Nav</p>
+      <p>this is the Home section</p>
     );
   }
 }
 
-export default TopNav;
+export default Home;
