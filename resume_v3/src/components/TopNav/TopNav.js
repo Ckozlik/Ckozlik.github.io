@@ -8,7 +8,7 @@ class TopNav extends React.Component{
   }
   render(){
     return(
-      <p>this is the Top Nav</p>
+      <p>this is the Tp Nav</p>
     );
   }
 }
