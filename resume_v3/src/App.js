@@ -2,7 +2,9 @@ import React, {Component} from 'react';
 import './App.css';
 import TopNav from './components/TopNav';
 import Home from './components/Home';
+import Resume from './components/Resume';
 import Footer from './components/Footer';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 
 class App extends Component{
@@ -12,13 +14,16 @@ class App extends Component{
   }
   render(){
     return( 
-      <div className="App">
-        <TopNav/>
-        <Home/>
-        <Footer/>
-        
-      </div>
-      
+      <Router>
+        <div className="App">
+          <TopNav/>
+          <div className="contentArea">
+            <Route exact path ='/'component = {Home} />
+            <Route exact path ='/'component = {Resume} />
+          </div>
+          <Footer/>
+        </div>
+      </Router>
       
     );
   }
