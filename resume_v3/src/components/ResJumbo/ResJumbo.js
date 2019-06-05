@@ -2,6 +2,7 @@ import React from 'react';
 import './ResJumbo.css';
 
 
+
 class ResJumbo extends React.Component{
   render(){
     return(

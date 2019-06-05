@@ -5,6 +5,10 @@ import Home from './components/Home';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
+import PopperJs from 'popper.js';
+import jquery from 'jquery';
+import Bootstrap from 'bootstrap';
+
 
 
 

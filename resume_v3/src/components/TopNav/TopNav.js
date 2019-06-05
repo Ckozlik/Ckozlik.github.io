@@ -7,7 +7,7 @@ class TopNav extends React.Component{
   render(){
     return(
       <div>
-      <nav className="navbar sticky-top bg-dark navbar-dark navbar-expand-sm justify-content-end"/>
+      <nav className="navbar sticky-top bg-dark navbar-dark navbar-expand-sm justify-content-end">
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="/myNav">
         <span className="navbar-toggler-icon "></span>
         </button>
@@ -21,8 +21,11 @@ class TopNav extends React.Component{
             <li className="nav-item dropdown"/>
               <a href="/" className="nav-link dropdown-toggle">Portfolio</a>
         </div>  
+        </nav>
           <link rel="stylesheet" type="text/css" href="styles/style.css"/>
-          </div>     
+
+          </div>  
+
       
     );
   }

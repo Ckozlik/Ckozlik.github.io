@@ -11,7 +11,7 @@ class Home extends React.Component{
           <div className="row my-4">
             <div className="col-md-12">
               <div className="media">
-                <img src="src/images/Head_Shot.jpeg" className ="mx-auto d-block"/>
+                <img src="/images/Head_Shot.jpeg" className ="mx-auto d-block"/>
               </div>
             </div>
           </div>
